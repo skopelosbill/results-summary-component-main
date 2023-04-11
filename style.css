@@ -1,6 +1,6 @@
-
-
-
+:root {
+  --clr-text-white: hsl(0, 0, 100%);
+}
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
