@@ -20,8 +20,10 @@
     --clr-text-pblue:  hsl(221, 100%, 96%);
     --clr-text-lav: hsl(241, 100%, 89%);
     --clr-text-dgb: hsl(224, 30%, 27%);
-
-    font-family: 'Hanken Grotesk', sans-serif;
+    
+    --fw-regular: 500;
+    --fw-bold: 700;
+    --fw-extra-bold: 800;
 }
 
 
@@ -59,3 +61,6 @@
   /*
    end of Josh's Custom CSS Reset
    */
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
