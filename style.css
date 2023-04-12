@@ -70,7 +70,12 @@ body {
   font-size: --fs-regular;
   background-color: var(--clr-text-white);
 }
-
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}
+/*
 main {
   display: flex;
   flex-direction: column;
@@ -114,4 +119,4 @@ main {
   color: var(--clr-text-white);
   font-weight: var(--fw-bold);
   font-size: 2rem;
-}
+} */
