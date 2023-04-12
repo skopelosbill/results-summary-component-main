@@ -24,8 +24,11 @@
     --fw-regular: 500;
     --fw-bold: 700;
     --fw-extra-bold: 800;
-}
 
+    --fs-regular: 1rem;
+    --fs-large: 2rem;
+    --fs-super: 3rem;
+}
 
 /*
   Josh's Custom CSS Reset
@@ -42,6 +45,7 @@
   }
   body {
     line-height: 1.5;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
   }
   img, picture, video, canvas, svg {
@@ -63,4 +67,51 @@
    */
 body {
   font-family: 'Hanken Grotesk', sans-serif;
+  font-size: --fs-regular;
+  background-color: var(--clr-text-white);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 375px;
+  height: 100vh;
+  align-items: center;
+  padding:0;
+  margin: 0 auto;
+}
+
+.result-box {
+  width:375px;
+  height:33vh;
+  background-color: blue;
+  
+}
+
+.pblue-text {
+  color: var(--clr-text-pblue);
+  font-weight: var(--fw-regular);
+  text-align: center; 
+}
+
+.circle {
+  width: 13vh;
+  height: 13vh;
+  border-radius: 100;
+  background: linear-gradient(var(--clr-circ-grad1),
+  )             var(--clr-bg-grad2);
+  
+}
+.number {
+  color: var(--clr-text-white);
+  font-weight: var(--fw-extra-bold);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.white-text {
+  color: var(--clr-text-white);
+  font-weight: var(--fw-bold);
+  font-size: 2rem;
 }
