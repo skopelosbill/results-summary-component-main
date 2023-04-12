@@ -1,3 +1,4 @@
+
 :root {
     --clr-label-1: hsl(0, 100%, 67%);
     --clr-label-2: hsl(39, 100%, 56%);
@@ -8,6 +9,8 @@
     --clr-label-bg-2: hsla(39, 100%, 56%, .2);
     --clr-label-bg-3: hsla(166, 100%, 37%, .2);
     --clr-label-bg-4: hsla(234, 85%, 45%, .2);
+
+    --clr-text-white: hsl(0, 0, 100%);
 }
 
 
