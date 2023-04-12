@@ -65,11 +65,11 @@
   /*
    end of Josh's Custom CSS Reset
    */
-body {
+/*body {
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: --fs-regular;
   background-color: var(--clr-text-white);
-}
+}*/
 .box {
   width: 100px;
   height: 100px;
