@@ -67,7 +67,6 @@
   /*
    end of Josh's Custom CSS Reset
    */
-<<<<<<< HEAD
    
 body {
   font-family: 'Hanken Grotesk', sans-serif;
@@ -76,19 +75,6 @@ body {
 }
 
 
-=======
-/*body {
-  font-family: 'Hanken Grotesk', sans-serif;
-  font-size: --fs-regular;
-  background-color: var(--clr-text-white);
-}*/
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: blueviolet;
-}
-/*
->>>>>>> c1c6e38f6c15ddb78562281bbb9054f7fb9c9842
 main {
   display: flex;
   flex-direction: column;
