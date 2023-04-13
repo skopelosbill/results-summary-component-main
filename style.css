@@ -68,6 +68,7 @@
   /*
    end of Josh's Custom CSS Reset
    */
+
    
 body {
   
@@ -75,6 +76,13 @@ body {
   background-color: var(--clr-text-white);
 }
 
+
+=======
+/*body {
+ 
+  font-size: --fs-regular;
+  background-color: var(--clr-text-white);
+}
 
 main {
   display: flex;
@@ -98,7 +106,8 @@ main {
                         var(--clr-bg-grad1),
                         var(--clr-bg-grad2));
   border-radius: 0 0 1rem 1rem;
-  padding: 1rem 5rem; 
+  padding: 1rem 5rem;
+  
 }
 
 .pblue-text {
@@ -120,8 +129,9 @@ main {
   border-radius: 100%;
   background: linear-gradient(
               var(--clr-circ-grad1),
-              var(--clr-circ-grad2)); 
-  padding: 0
+              var(--clr-circ-grad2));
+  
+  
 }
 
 .number {
@@ -140,3 +150,7 @@ main {
   padding-top: 1rem;
   padding-bottom: .5rem;
 } 
+=======
+  font-size: 2rem;
+} */
+
