@@ -71,15 +71,6 @@
 
    
 body {
-  
-  font-size: --fs-regular;
-  background-color: var(--clr-text-white);
-}
-
-
-=======
-/*body {
- 
   font-size: --fs-regular;
   background-color: var(--clr-text-white);
 }
@@ -110,7 +101,7 @@ main {
   
 }
 
-.pblue-text {
+.lav-text {
   color: var(--clr-text-lav);
   font-weight: var(--fw-regular);
   text-align: center; 
@@ -142,7 +133,7 @@ main {
   padding-top: .5rem;
 }
 
-.white-text {
+.pblue-text {
   color: var(--clr-text-pblue);
   font-weight: var(--fw-bold);
   font-size: var(--fs-large);
@@ -150,7 +141,5 @@ main {
   padding-top: 1rem;
   padding-bottom: .5rem;
 } 
-=======
-  font-size: 2rem;
-} */
+
 
