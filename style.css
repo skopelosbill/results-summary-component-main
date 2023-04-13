@@ -63,7 +63,7 @@
   }
   #root, #__next {
     isolation: isolate;
-  }*/
+  }
 
   /*
    end of Josh's Custom CSS Reset
