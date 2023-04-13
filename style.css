@@ -96,7 +96,7 @@ main {
   background: linear-gradient(
                         var(--clr-bg-grad1),
                         var(--clr-bg-grad2));
-  border-radius: 0 0 1rem 1rem;
+  border-radius: 0 0 2rem 2rem;
   padding: 1rem 5rem;
   
 }
