@@ -5,10 +5,10 @@
     --clr-label-3: hsl(166, 100%, 37%);
     --clr-label-4: hsl(234, 85%, 45%);
 
-    --clr-label-bg-1: hsla(0, 100%, 67%, .2);
-    --clr-label-bg-2: hsla(39, 100%, 56%, .2);
-    --clr-label-bg-3: hsla(166, 100%, 37%, .2);
-    --clr-label-bg-4: hsla(234, 85%, 45%, .2);
+    --clr-label-bg-1: hsla(0, 100%, 67%, .1);
+    --clr-label-bg-2: hsla(39, 100%, 56%, .1);
+    --clr-label-bg-3: hsla(166, 100%, 37%, .1);
+    --clr-label-bg-4: hsla(234, 85%, 45%, .1);
 
     --clr-bg-grad1: hsl(252, 100%, 67%);
     --clr-bg-grad2: hsl(241, 81%, 54%);
@@ -19,6 +19,7 @@
     --clr-text-white: hsl(0, 0, 100%);
     --clr-text-pblue:  hsl(221, 100%, 96%);
     --clr-text-lav: hsl(241, 100%, 89%);
+    --clr-text-mlav: hsl(241, 66%, 69%);
     --clr-text-dgb: hsl(224, 30%, 27%);
     
     --fw-regular: 500;
@@ -98,7 +99,7 @@ main {
                         var(--clr-bg-grad2));
   border-radius: 0 0 2rem 2rem;
   padding: 1rem 5rem;
-  
+  z-index: 1;
 }
 
 .lav-text {
@@ -142,4 +143,91 @@ main {
   padding-bottom: .5rem;
 } 
 
+.summary-box {
+  width:375px;
+  height: 57%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-11.71875rem, 0);
+  background-color: white;
+  z-index: 0;
+  padding: 2rem;
+}
 
+.dgb-text {
+  text-align: left;
+  color: var(--clr-text-dgb);
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(4,1fr);
+  grid-template-columns: .2fr 2fr .2fr .4fr;
+  gap: 1em 0;
+  font-size: var(--fs-small);
+  align-content: center;
+}
+
+.icon-reaction,
+.text-reaction,
+.score-reaction,
+.out-of-reaction {
+  background-color: var(--clr-label-bg-1);
+  color: var(--clr-label-1); 
+}
+.icon-memory,
+.text-memory,
+.score-memory,
+.out-of-memory {
+  background-color: var(--clr-label-bg-2);
+  color: var(--clr-label-2); 
+}
+.icon-verbal,
+.text-verbal,
+.score-verbal,
+.out-of-verbal {
+  background-color: var(--clr-label-bg-3);
+  color: var(--clr-label-3); 
+}
+.icon-visual,
+.text-visual,
+.score-visual,
+.out-of-visual {
+  background-color: var(--clr-label-bg-4);
+  color: var(--clr-label-4);
+}
+
+.score-reaction,
+.score-memory,
+.score-verbal,
+.score-visual {
+  color: var(--clr-text-dgb);
+}
+.out-of-reaction,
+.out-of-memory,
+.out-of-verbal,
+.out-of-visual {
+  color: var(--clr-text-mlav);
+} 
+.icon-reaction,
+.text-reaction,
+.score-reaction,
+.out-of-reaction,
+.icon-memory,
+.text-memory,
+.score-memory,
+.out-of-memory,
+.icon-verbal,
+.text-verbal,
+.score-verbal,
+.out-of-verbal,
+.icon-visual,
+.text-visual,
+.score-visual,
+.out-of-visual {
+  padding: .3em;
+  font-size: var(--fs-small);
+}
