@@ -245,7 +245,6 @@ main {
 
 .button {
   width:100%;
-  
   padding-top: 1em;
   padding-bottom: 1em;
   margin: 2rem 0;
@@ -253,9 +252,10 @@ main {
   background-color: var(--clr-text-dgb);
   color: var(--clr-text-lav);
   font-size: var(--fs-small); 
+  font-weight: var(--fw-bold);
 }
 
-.attribution p { 
+.attribution { 
   font-size: 11px; 
   text-align: center; 
 }
