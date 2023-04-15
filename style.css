@@ -29,7 +29,7 @@
     --fs-small: .8rem;
     --fs-regular: 1rem;
     --fs-large: 1.5rem;
-    --fs-super: 2rem;
+    --fs-super: 4rem;
 }
 
 /*
@@ -81,7 +81,7 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   width: 375px;
-  height: 100vh;
+  height: auto;
   align-items: center;
   padding: 2rem 1rem;
   margin: 0 auto;
@@ -89,7 +89,7 @@ main {
 
 .result-box {
   width:375px;
-  height: 48%;
+  height: 40%;
   position: absolute;
   top: 0;
   left: 50%;
@@ -118,6 +118,7 @@ main {
   left: 50%;
   transform: translateX(-8.5vh);
   justify-content: center;
+ 
   border-radius: 100%;
   background: linear-gradient(
               var(--clr-circ-grad1),
@@ -131,7 +132,8 @@ main {
   font-weight: var(--fw-extra-bold);
   font-size: var(--fs-super);
   text-align: center;
-  padding-top: .5rem;
+  padding-top: 1rem;
+  line-height: 1.2;
 }
 
 .pblue-text {
@@ -139,13 +141,13 @@ main {
   font-weight: var(--fw-bold);
   font-size: var(--fs-large);
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: .5rem;
 } 
 
 .summary-box {
   width:375px;
-  height: 57%;
+  height: 63.5%;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -153,20 +155,22 @@ main {
   background-color: white;
   z-index: 0;
   padding: 2rem;
+  align-items: center;
 }
 
 .dgb-text {
   text-align: left;
   color: var(--clr-text-dgb);
   padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
+  padding-bottom: 1.5rem;
+  font-weight: var(--fw-extra-bold);
 }
 
 .grid-container {
   display: grid;
   grid-template-rows: repeat(4,1fr);
-  grid-template-columns: .2fr 2fr .2fr .4fr;
-  gap: 1em 0;
+  grid-template-columns: .3fr 1.6fr .2fr .5fr;
+  gap: 2em 0;
   font-size: var(--fs-small);
   align-content: center;
 }
@@ -205,6 +209,7 @@ main {
 .score-verbal,
 .score-visual {
   color: var(--clr-text-dgb);
+  font-weight: var(--fw-bold);
 }
 .out-of-reaction,
 .out-of-memory,
@@ -228,6 +233,32 @@ main {
 .text-visual,
 .score-visual,
 .out-of-visual {
-  padding: .3em;
+  padding: 1em;
   font-size: var(--fs-small);
+}
+
+.button-container{
+  width:auto;
+  height: fit-content;
+  align-self: center;
+}
+
+.button {
+  width:100%;
+  
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 2rem 0;
+  border-radius: 1.5rem;
+  background-color: var(--clr-text-dgb);
+  color: var(--clr-text-lav);
+  font-size: var(--fs-small); 
+}
+
+.attribution p { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
 }
