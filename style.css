@@ -179,8 +179,8 @@ main {
 .text-reaction,
 .score-reaction,
 .out-of-reaction {
-  background-color: var(--clr-label-bg-1);
-  color: var(--clr-label-1); 
+  background-color: var(--clr-label-1);
+  color: var(--clr-label-bg1); 
 }
 .icon-memory,
 .text-memory,
