@@ -256,8 +256,15 @@ main {
 }
 
 @media only screen and (min-width: 750px){
-    body {
-        background-color: green;
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 750px;
+        height: 50%;
+        align-items: center;
+        padding: 2rem 1rem;
+        margin: 0 auto;
     }
 }
         
