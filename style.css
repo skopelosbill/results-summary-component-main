@@ -92,10 +92,7 @@ body {
   border-radius: 2rem;
   align-content: center;
   justify-content: center;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+
 }
 
 .result-box {
@@ -219,6 +216,10 @@ body {
     box-shadow: 30px 30px 30px var(--clr-text-pblue);
     border-radius: 2rem;
     align-content: center;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   }
   .result-box {
     border-radius: 2rem;
