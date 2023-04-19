@@ -11,6 +11,10 @@
 
     --clr-bg-grad1: hsl(252, 100%, 67%);
     --clr-bg-grad2: hsl(241, 81%, 54%);
+    
+    --hov-grad: linear-gradient(
+                        var(--clr-bg-grad1),
+                        var(--clr-bg-grad2));
 
     --clr-circ-grad1: hsla(256, 72%, 46%, 1);
     --clr-circ-grad2: hsla(241, 72%, 46%, 0);
@@ -242,6 +246,11 @@ body {
   color: var(--clr-text-lav);
   font-size: var(--fs-small); 
   font-weight: var(--fw-bold);
+}
+
+.button:hover,
+.button:focus {
+    background: var(--hov-grad);
 }
 
 #footer {
