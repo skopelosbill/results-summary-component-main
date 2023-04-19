@@ -220,6 +220,8 @@ body {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(-50%);
   }
   .result-box {
     border-radius: 2rem;
