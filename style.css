@@ -78,7 +78,6 @@ body {
   font-size: --fs-regular;
   background-color: var(--clr-text-white);
 }
-
 .page-container {
   position: relative;
   min-height: 100%;
@@ -96,7 +95,6 @@ body {
   border-radius: 2rem;
   align-content: center;
   justify-content: center;
-
 }
 
 .result-box {
@@ -213,22 +211,43 @@ body {
 
 @media (min-width: 46.875rem) {
   .grid-container {
-    position:relative;
-    top:25%;
+   /* position:relative;
+    top:25%;*/
     width: 750px;
+    height: 67%;
     grid-auto-flow: column;
-    box-shadow: 30px 30px 30px var(--clr-text-pblue);
+    box-shadow: 40px 30px 30px var(--clr-text-pblue);
     border-radius: 2rem;
     align-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   .result-box {
     border-radius: 2rem;
+    height: 67vh;
   }
+  .dgb-text,
+  .heading {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .pblue-text {
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+  }
+  .summary-box {
+    height: 67vh;
+  } 
+  .reaction,
+  .memory,
+  .verbal,
+  .visual {
+    margin-bottom: 2rem;
+  }
+  
 }
 
 .button-container{
