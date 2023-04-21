@@ -231,8 +231,8 @@ body {
   }
   .dgb-text,
   .heading {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
   }
   .pblue-text {
     padding-top: 4rem;
@@ -245,7 +245,7 @@ body {
   .memory,
   .verbal,
   .visual {
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
   }
   
 }
